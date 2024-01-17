@@ -44,7 +44,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body style="display: flex; flex-direction: column; height: 100vh;">
   <!-- Back To Top Start -->
   <a id="backtotop" data-tippy-content="Back To Top.">
     <i class="fa-solid fa-angle-up has-text-white fa-2xl mt-5"></i>
@@ -105,7 +105,7 @@
             <a href="/" class="navbar-item is-tab" target="_self">
               <i class="fi fi-us"></i>/<i class="fi fi-gb"></i> English
             </a>
-            <a href="/fr" class="navbar-item is-tab" target="_self">
+            <a href="fr" class="navbar-item is-tab" target="_self">
               <i class="fi fi-fr"></i> Français
             </a>
           </div>
@@ -130,182 +130,134 @@
   </nav>
   <!-- Navbar End -->
 
-  <!-- Hero Section Start -->
-  <section class="hero bg-base is-fullheight">
-    <div class="hero-body">
-      <div class="">
-        <div class="columns">
-          <div class="column mr-6 mt-12" data-aos="fade-up">
-            <p class="title has-text-white has-text-weight-bold">
-              Give a voice to your community with Habrok!
-            </p>
-            <p class="subtitle has-text-grey-light is-size-6 mt-3">
-              Allow your community to rate other members, helping your staff team to know how appreciated is a member in
-              your community.
-            </p>
-            <div class="buttons">
-              <a href="https://invite.habrok.app" target="_blank" class="button is-info">
-                <strong>Add To Discord</strong>
-              </a>
-
-              <!-- <a href="#" class="button is-primary is-outlined">
-                  <strong><i class="fa-solid fa-crown"></i> Premium</strong>
-                </a> -->
-            </div>
-          </div>
-          <div class="column mt-6" data-aos="fade-left">
-            <img class="image has-image-centered vert-move mt-4" src="/assets/img/habrok.png" alt="hero image"
-              style="width: 20rem; border-radius: 50%;" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="has-text-centered" data-tippy-content="Scroll Down">
-      <a href="#features"><i class="fa-solid fa-circle-chevron-down fa-lg vert-move2 has-text-white"></i></a>
-    </div>
-  </section>
-  <!-- Hero Section End -->
-
-  <!-- Hero Waves Start -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#1a2634" fill-opacity="1"
-      d="M0,288L24,261.3C48,235,96,181,144,154.7C192,128,240,128,288,149.3C336,171,384,213,432,202.7C480,192,528,128,576,133.3C624,139,672,213,720,213.3C768,213,816,139,864,101.3C912,64,960,64,1008,106.7C1056,149,1104,235,1152,240C1200,245,1248,171,1296,144C1344,117,1392,139,1416,149.3L1440,160L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z">
-    </path>
-  </svg>
-  <!-- Hero Waves End -->
-
   <!-- Features Section Start -->
-  <section id="features" class="section mt-6">
+  <section id="features" class="section mt-6" style="flex-grow: 1;">
     <div class="has-text-centered">
-      <h1 class="title lined">Features</h1>
+      <h1 class="title lined">Privacy Policy</h1>
       <div class="line line-center blurple"></div>
     </div>
 
-    <!-- single feature start (Left) -->
-    <div class="single-feature">
+    <br>
 
-      <div class="columns mt-6">
-        <div class="column mr-6">
-          <h4 class="title">Let everyone be heard</h4>
+    <p class="subtitle">
+      Last updated: 2024-01-17
+
+      Habrok's team ("us," "we," or "our") operates the Discord bot "Habrok" (the "Bot"). This Privacy
+      Policy outlines our policies regarding the collection, use, and disclosure of personal information when using the
+      Bot.
+    </p>
+
+    <!--  -->
+    <div class="single-feature">
+      <div class="columns mt-12">
+        <div class="column mr-12">
+          <h4 class="title">1. Information Collection</h4>
+          <h5 class="subtitle">1.1 Reputation System Data</h5>
           <p class="subtitle mt-3">
-            Let your members rate each other and give them a score based on their ratings.
+            The Bot collects and processes information related to the "Reputation System." This includes but is not
+            limited to:
           </p>
-        </div>
-        <div class="column" data-aos="fade-left">
-          <img class="image has-image-centered" src="/assets/img/praise_ctx_menu.png" alt="feature1 img"
-            style="width: 20rem; border-radius: 5px;" />
-        </div>
-      </div>
-    </div>
-    <!-- single feature end (Left) -->
 
-    <!-- single feature start (Right) -->
-    <div class="single-feature">
-
-      <div class="columns mt-6">
-        <div class="column" data-aos="fade-right">
-          <img class="image has-image-centered" src="/assets/img/rewards.png" alt="feature1 img"
-            style="width: 20rem; border-radius: 5px;" />
-        </div>
-        <div class="column">
-          <h4 class="title">
-            Reward the pillars of your community!
-          </h4>
+          <ul class="subtitle" style="list-style: disc; margin-left: 2em;">
+            <li>User-provided reputation ratings (praise or blame).</li>
+            <li>User IDs associated with submitted ratings.</li>
+            <li>Reputation scores and history within servers.</li>
+          </ul>
+          <h5 class="subtitle">1.2 Opt-Out Data</h5>
           <p class="subtitle mt-3">
-            Give special roles to valued members of your community. Let them moderate your server and give them access
-            to special channels or privileges.
+            For administrators who choose to opt-out of sharing scores from their server, the Bot may collect and store
+            this preference to respect their decision
           </p>
         </div>
       </div>
     </div>
-    <!-- single feature end (Right) -->
+    <!--  -->
 
-    <!-- single feature start (Left) -->
+    <!--  -->
     <div class="single-feature">
-
-      <div class="columns mt-6">
-        <div class="column mr-6">
-          <h4 class="title">
-            Evaluate a member's toxicity
-          </h4>
+      <div class="columns mt-12">
+        <div class="column mr-12">
+          <h4 class="title">2. Use of Information</h4>
+          <h5 class="subtitle">2.1 Reputation System Operation</h5>
           <p class="subtitle mt-3">
-            Check out a member's reputation among their peers. Check their reputation rating, with a graph showing their
-            history.
+            The collected information is used to facilitate the operation of the "Reputation System." This includes
+            displaying reputation scores, maintaining a history of ratings, and providing users with insights into their
+            reputation within servers.
           </p>
-        </div>
-        <div class="column" data-aos="fade-left">
-          <img class="image has-image-centered" src="/assets/img/member_stats.png" alt="feature1 img"
-            style="width: 20rem; border-radius: 5px;" />
-        </div>
-      </div>
-    </div>
-    <!-- single feature end (Left) -->
-
-    <!-- single feature start (Right) -->
-    <div class="single-feature">
-
-      <div class="columns mt-6">
-        <div class="column" data-aos="fade-right">
-          <img class="image has-image-centered" src="/assets/img/member_stats_shared.png" alt="feature1 img"
-            style="width: 20rem; border-radius: 5px;" />
-        </div>
-        <div class="column">
-          <h4 class="title">Sharing is caring!</h4>
+          <h5 class="subtitle">2.2 Opt-Out Preferences</h5>
           <p class="subtitle mt-3">
-            Staff members can check the reputation of a member in other servers, to see if they have a history of being
-            a good or bad community member.
+            Information related to administrators' opt-out preferences is used to respect their decision not to share
+            server scores with other servers.
           </p>
         </div>
       </div>
     </div>
-    <!-- single feature end (Right) -->
+    <!--  -->
+
+    <!--  -->
+    <div class="single-feature">
+      <div class="columns mt-12">
+        <div class="column mr-12">
+          <h4 class="title">3. Data Sharing</h4>
+          <h5 class="subtitle">3.1 Sharing Within Servers</h5>
+          <p class="subtitle mt-3">
+            The Bot shares reputation-related information within the server to enable users and administrators to view
+            and interact with the Reputation System.
+          </p>
+          <h5 class="subtitle">3.2 Global Scores</h5>
+          <p class="subtitle mt-3">
+            Administrators from other servers may access global scores of users who have a reputation score in their
+            server, excluding those from servers where administrators have opted out of sharing scores.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="single-feature">
+      <div class="columns mt-12">
+        <div class="column mr-12">
+          <h4 class="title">4. Data Security</h4>
+          <p class="subtitle mt-3">
+            We prioritize the security of the data collected by the Bot. Measures are in place to prevent unauthorized
+            access, disclosure, or alteration of information.
+            We also take great care not to divulge any information that could lead to any "witch hunting" or any
+            cyberbullying.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="single-feature">
+      <div class="columns mt-12">
+        <div class="column mr-12">
+          <h4 class="title">5. Changes to Privacy Policy</h4>
+          <p class="subtitle mt-3">
+            We may update this Privacy Policy from time to time. Users are encouraged to review this policy periodically
+            for any changes. Changes are effective immediately upon posting.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="single-feature">
+      <div class="columns mt-12">
+        <div class="column mr-12">
+          <h4 class="title">6. Contact Information</h4>
+          <p class="subtitle mt-3">
+            If you have any questions or concerns about these Terms, please contact us on our Discord server.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
   </section>
   <!-- Features Section End -->
-
-  <!-- Stats Section Start -->
-  <!-- <section id="stats" class="section mt-6">
-      <div class="has-text-centered">
-        <h1 class="title lined">Stats</h1>
-        <div class="line line-center blurple"></div>
-      </div>
-
-      <div class="columns mt-6">
-        <div class="column has-text-centered">
-          <p class="title has-text-weight-bold lined">000</p>
-          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-server"></i> Servers</span>
-        </div>
-
-        <div class="column has-text-centered">
-          <p class="title has-text-weight-bold lined">000</p>
-          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-terminal"></i> Commands</span>
-        </div>
-
-        <div class="column has-text-centered">
-          <p class="title has-text-weight-bold lined">000</p>
-          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-users"></i> Users</span>
-        </div>
-      </div>
-    </section> -->
-  <!-- Stats Section End -->
-
-  <!-- Invite Section Start -->
-  <section class="section mt-6">
-    <div class="columns">
-      <div class="column has-text-left">
-        <p class="title has-text-weight-bold">
-          Ready to try <span class="blurple">Habrok</span>?
-        </p>
-        <p class="subtitle mt-3 has-text-gray">
-          Checkout the documentation by following the button below.
-        </p>
-        <a href="https://docs.habrok.app" class="button is-blurple is-medium"><strong><i class="fa-solid fa-book"></i>
-            Get Started</strong></a>
-      </div>
-
-      <div class="column"></div>
-    </div>
-  </section>
-  <!-- Invite Section End -->
 
   <!-- Footer Section Start -->
   <footer class="footer bg-base">
